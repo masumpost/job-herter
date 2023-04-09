@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from '../Header/Header';
+import { Outlet } from 'react-router-dom';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
-        <div className='md:mx-4'>
-            <Header></Header>
-        </div>
+      <div>
+        <Banner></Banner>
+      </div>
     );
 };
 
