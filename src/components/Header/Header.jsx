@@ -41,10 +41,10 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-3xl">Job Hunter</a>
+          <a className="btn btn-ghost normal-case text-3xl font-bold">Job Hunter</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
               <Link to="/">Home</Link>
             </li>

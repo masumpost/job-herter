@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "companyLogo": "tesla.png",
+      "jobTitle": "Software Engineer",
+      "companyName": "Tesla",
+      "remoteOrOnsite": "Remote",
+      "location": "USA",
+      "workingTine": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "JobDescription": "We are looking for a talented software engineer to join our team...",
+      "jobResponsibility": "Responsibilities include...",
+      "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in software development",
+      "ContactInfo": {
+        "phone": "555-1234",
+        "email": "careers@abctech.com"
+      }
+    },
+    {
+      "id": 2,
+      "companyLogo": "google.png",
+      "jobTitle": "Marketing Manager",
+      "companyName": "Google",
+      "remoteOrOnsite": "Onsite",
+      "location": "Los Angeles, CA",
+      "workingTine": "Full-time",
+      "salary": "$70,000 - $90,000",
+      "JobDescription": "We are seeking a skilled Marketing Manager to join our team...",
+      "jobResponsibility": "Responsibilities include...",
+      "educationalRequirements": "Bachelor's degree in Marketing, Business Administration, or related field",
+      "experiences": "5+ years of experience in marketing or related field",
+      "ContactInfo": {
+        "phone": "555-5678",
+        "email": "jobs@defmarketing.com"
+      }
+    },
+    {
+      "id": 3,
+      "companyLogo": "amazon.jpg",
+      "jobTitle": "Graphic Designer",
+      "companyName": "Amazon",
+      "remoteOrOnsite": "Remote",
+      "location": "USA",
+      "workingTine": "Part-time",
+      "salary": "$30 - $50 per hour",
+      "JobDescription": "We are looking for a talented Graphic Designer to join our team...",
+      "jobResponsibility": "Responsibilities include...",
+      "educationalRequirements": "Associate's or Bachelor's degree in Graphic Design or related field",
+      "experiences": "2+ years of experience in graphic design",
+      "ContactInfo": {
+        "phone": "555-9012",
+        "email": "info@ghidesign.com"
+      }
+    },
+    {
+      "id": 4,
+      "companyLogo": "netflix.png",
+      "jobTitle": "Customer Service Representative",
+      "companyName": "Netflix",
+      "remoteOrOnsite": "Onsite",
+      "location": "San Francisco, CA",
+      "workingTine": "Full-time",
+      "salary": "$40,000 - $50,000",
+      "JobDescription": "We are seeking a Customer Service Representative to join our team...",
+      "jobResponsibility": "Responsibilities include...",
+      "educationalRequirements": "High school diploma or equivalent",
+      "experiences": "1+ years of experience in customer service",
+      "ContactInfo": {
+        "phone": "555-3456",
+        "email": "hr@hijservices.com"
+      }
+    },
+    {
+        "id": 5,
+        "companyLogo": "microsoft.jpg",
+        "jobTitle": "Data Analyst",
+        "companyName": "Microsoft",
+        "remoteOrOnsite": "Remote",
+        "location": "USA",
+        "workingTine": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "JobDescription": "We are seeking a skilled Data Analyst to join our team...",
+        "jobResponsibility": "Responsibilities include...",
+        "educationalRequirements": "Bachelor's degree in Computer Science, Statistics, or related field",
+        "experiences": "3+ years of experience in data analysis or related field",
+        "ContactInfo": {
+          "phone": "555-7890",
+          "email": "careers@jklanalytics.com"
+        }
+      },
+      {
+        "id": 6,
+        "companyLogo": "airbnb.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Airbnb",
+        "remoteOrOnsite": "Onsite",
+        "location": "San Francisco, CA",
+        "workingTine": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "JobDescription": "We are looking for an experienced Software Engineer to join our team...",
+        "jobResponsibility": "Responsibilities include...",
+        "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experiences": "5+ years of experience in software engineering or related field",
+        "ContactInfo": {
+          "phone": "555-1234",
+          "email": "jobs@xyzsoftware.com"
+        }
+      }
+]      
+      
+  
