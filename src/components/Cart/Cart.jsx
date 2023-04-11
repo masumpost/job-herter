@@ -4,8 +4,8 @@ import { faDollarSign, faCalendarCheck, faPhone, faEnvelope, faLocationDot } fro
 import'./Cart.css'
 
 const Cart = ({job}) => {
-    const{JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, ContactInfo } = job
-    console.log(ContactInfo.phone)
+    const{JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email } = job
+    
     
     return (
         <>
@@ -30,8 +30,8 @@ const Cart = ({job}) => {
                     <p><FontAwesomeIcon icon={faCalendarCheck} /><span className='font-semibold'> Job Title : </span>{jobTitle}</p><br />
 
                     <h5 className='font-bold text-xl my-4'>Contact Information</h5><hr className='py-3'/>
-                    <p><FontAwesomeIcon icon={faPhone} /><span className='font-semibold'>  Phone : </span>{ContactInfo.phone}</p><br />
-                    <p><FontAwesomeIcon icon={faEnvelope} /><span className='font-semibold'> Email : </span>{ContactInfo.email}</p><br />
+                    <p><FontAwesomeIcon icon={faPhone} /><span className='font-semibold'>  Phone : </span>{phone}</p><br />
+                    <p><FontAwesomeIcon icon={faEnvelope} /><span className='font-semibold'> Email : </span>{email}</p><br />
                     <p><FontAwesomeIcon icon={faLocationDot} /><span className='font-semibold'> Location : </span>{location}</p><br />
                    </div>
                    <div className='my-4'>

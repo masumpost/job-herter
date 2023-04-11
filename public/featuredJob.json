@@ -11,11 +11,10 @@
       "JobDescription": "We are looking for a talented software engineer to join our team...",
       "jobResponsibility": "Responsibilities include...",
       "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-      "experiences": "3+ years of experience in software development",
-      "ContactInfo": {
-        "phone": "555-1234",
-        "email": "careers@abctech.com"
-      }
+      "experiences": "3+ years of experience in software development",     
+      "phone": "555-1234",
+      "email": "careers@abctech.com"
+      
     },
     {
       "id": 2,
@@ -30,10 +29,9 @@
       "jobResponsibility": "Responsibilities include...",
       "educationalRequirements": "Bachelor's degree in Marketing, Business Administration, or related field",
       "experiences": "5+ years of experience in marketing or related field",
-      "ContactInfo": {
-        "phone": "555-5678",
-        "email": "jobs@defmarketing.com"
-      }
+      "phone": "555-5678",
+      "email": "jobs@defmarketing.com"
+      
     },
     {
       "id": 3,
@@ -48,10 +46,8 @@
       "jobResponsibility": "Responsibilities include...",
       "educationalRequirements": "Associate's or Bachelor's degree in Graphic Design or related field",
       "experiences": "2+ years of experience in graphic design",
-      "ContactInfo": {
-        "phone": "555-9012",
-        "email": "info@ghidesign.com"
-      }
+      "phone": "555-9012",
+      "email": "info@ghidesign.com"
     },
     {
       "id": 4,
@@ -66,10 +62,8 @@
       "jobResponsibility": "Responsibilities include...",
       "educationalRequirements": "High school diploma or equivalent",
       "experiences": "1+ years of experience in customer service",
-      "ContactInfo": {
-        "phone": "555-3456",
-        "email": "hr@hijservices.com"
-      }
+      "phone": "555-3456",
+      "email": "hr@hijservices.com"
     },
     {
         "id": 5,
@@ -84,10 +78,8 @@
         "jobResponsibility": "Responsibilities include...",
         "educationalRequirements": "Bachelor's degree in Computer Science, Statistics, or related field",
         "experiences": "3+ years of experience in data analysis or related field",
-        "ContactInfo": {
-          "phone": "555-7890",
-          "email": "careers@jklanalytics.com"
-        }
+        "phone": "555-7890",
+        "email": "careers@jklanalytics.com"
       },
       {
         "id": 6,
@@ -102,10 +94,8 @@
         "jobResponsibility": "Responsibilities include...",
         "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
         "experiences": "5+ years of experience in software engineering or related field",
-        "ContactInfo": {
-          "phone": "555-1234",
-          "email": "jobs@xyzsoftware.com"
-        }
+        "phone": "555-1234",
+        "email": "jobs@xyzsoftware.com"
       }
 ]      
       
