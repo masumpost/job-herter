@@ -1,9 +1,14 @@
 import React from 'react';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const Statistics = () => {
     return (
         <div>
-            <h1>This is statistics page</h1>
+            <ResponsiveContainer width="100%" height="100%">
+                <AreaChart>
+                
+                </AreaChart>
+            </ResponsiveContainer>
         </div>
     );
 };

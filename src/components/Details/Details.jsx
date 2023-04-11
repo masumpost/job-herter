@@ -1,12 +1,19 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useLoaderData, useParams } from 'react-router-dom';
+import Cart from '../Cart/Cart';
 
 const Details = () => {
-    console.log(prams)
-    const cardDetails = useLoaderData()
+    const cardDetails = useLoaderData();
+    const {id} = useParams();
+    const[job, setJob] = useState({});
+    useEffect(()=>{
+        const jobData = cardDetails.find(card=>card.id == id)
+        setJob(jobData)
+    },[])
+    // console.log(job)
     return (
         <div>
-            <h1>This is details page</h1>
+            <Cart job={job}></Cart>
         </div>
     );
 };
