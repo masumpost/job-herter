@@ -1,12 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
+import Details from '../Details/Details';
 
 const Feature = ({feature}) => {
-    console.log(feature)
-    const{companyLogo, jobTitle, companyName, workingTine,remoteOrOnsite,
+    const{id,companyLogo, jobTitle, companyName, workingTine,remoteOrOnsite,
         location,salary
 } = feature
+console.log(id)
     return (
         <div className='bg-slate-50 p-10'>
             <img className='w-28 h-10' src={companyLogo} alt="" />
