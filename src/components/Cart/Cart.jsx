@@ -5,10 +5,27 @@ import'./Cart.css'
 import { addToDb } from '../Utilities/ConnectPage';
 
 const Cart = ({job}) => {
-    const{id, JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email } = job
+    const{id, JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email, companyName, companyLogo, workingTine, remoteOrOnsite } = job
     
-    const handelAddToDb = (id) =>{
-        addToDb(id)
+    const handelAddToDb = (id, JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email, companyName, companyLogo, workingTine, remoteOrOnsite ) =>{
+        const previousJobs = JSON.parse(localStorage.getItem("job"));
+        let job = [];
+        const object = {id, JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email, companyName, companyLogo, workingTine, remoteOrOnsite, job:true }
+
+        if (previousJobs) {
+            const isThisProductMarked = previousJobs.find(i => i.id == id);
+            if (isThisProductMarked) {
+                alert("Your previous submissions are pending...");
+            }
+            else{
+                job.push(...previousJobs, object)
+                localStorage.setItem("job", JSON.stringify(job))
+            }
+        }
+        else {
+            job.push(object);
+            localStorage.setItem("job", JSON.stringify(job))
+        }
     }
 
     return (
@@ -39,7 +56,7 @@ const Cart = ({job}) => {
                     <p><FontAwesomeIcon icon={faLocationDot} /><span className='font-semibold'> Location : </span>{location}</p><br />
                    </div>
                    <div className='my-4'>
-                   <button onClick={()=>handelAddToDb(id)} className="btn btn-active btn-primary w-full">Apply Now</button>
+                   <button onClick={()=>handelAddToDb(id, JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email, companyName, companyLogo, workingTine, remoteOrOnsite )} className="btn btn-active btn-primary w-full">Apply Now</button>
                    </div>
                 </div>
             </div>

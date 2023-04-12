@@ -3,12 +3,12 @@ import { getShoppingCart } from "../Utilities/ConnectPage"
 const dBJobsLoader = async () => {
 const loadedJobs = await fetch('/featuredJob.json');
 const jobs = await loadedJobs.json();
-console.log(jobs);
+// console.log(jobs);
 
 const storedCart = getShoppingCart();
 const savedJobs = [];
 
-for(id in storedCart){
+for(const id in storedCart){
     const addedJobs = jobs.find(jb => jb.id === id)
     if(addedJobs){
         const quantity = storedCart[id];

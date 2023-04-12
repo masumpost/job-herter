@@ -5,7 +5,7 @@ This is a job searching website
 
 
 
-## What you in this website
+## What you have in this website
 
 - There is 5 link one logo and one button on nav link.
 - First page is 'Home' => in this page everythig is show that need to show normally. Like 4 job section with show all button.

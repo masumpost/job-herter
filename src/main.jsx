@@ -51,6 +51,7 @@ const router = createBrowserRouter([
         path: '/jobs',
         element:<Jobs></Jobs>,
         loader:dBJobsLoader
+        // loader:({params})=>fetch(`/featuredJob.json`)
       }
     ]
   },
