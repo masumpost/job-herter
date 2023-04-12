@@ -2,11 +2,15 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDollarSign, faCalendarCheck, faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import'./Cart.css'
+import { addToDb } from '../Utilities/ConnectPage';
 
 const Cart = ({job}) => {
-    const{JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email } = job
+    const{id, JobDescription,jobResponsibility,educationalRequirements,experiences,salary,jobTitle,location, phone, email } = job
     
-    
+    const handelAddToDb = (id) =>{
+        addToDb(id)
+    }
+
     return (
         <>
             <h2 className='text-center text-3xl font-semibold my-10'>Job Details</h2>
@@ -35,7 +39,7 @@ const Cart = ({job}) => {
                     <p><FontAwesomeIcon icon={faLocationDot} /><span className='font-semibold'> Location : </span>{location}</p><br />
                    </div>
                    <div className='my-4'>
-                   <button className="btn btn-active btn-primary w-full">Apply Now</button>
+                   <button onClick={()=>handelAddToDb(id)} className="btn btn-active btn-primary w-full">Apply Now</button>
                    </div>
                 </div>
             </div>

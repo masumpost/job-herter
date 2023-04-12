@@ -15,7 +15,7 @@ const Statistics = () => {
       ];
 
     return (
-        <div>
+        <div className=''>
             <h1 className='font-bold text-3xl text-center my-8'>Assignment marks chart</h1>
 
             <AreaChart

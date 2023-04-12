@@ -10,7 +10,6 @@ const Details = () => {
         const jobData = cardDetails.find(card=>card.id == id)
         setJob(jobData)
     },[])
-    // console.log(job)
     return (
         <div>
             <Cart job={job}></Cart>

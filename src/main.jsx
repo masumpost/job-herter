@@ -14,6 +14,8 @@ import Jobs from './components/Jobs/Jobs';
 import Layout from './components/Layout/Layout';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Details from './components/Details/Details';
+import dBJobsLoader from './components/DbLoader/DbLoader';
+
 
 
 const router = createBrowserRouter([
@@ -47,7 +49,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/jobs',
-        element:<Jobs></Jobs>
+        element:<Jobs></Jobs>,
+        loader:dBJobsLoader
       }
     ]
   },
