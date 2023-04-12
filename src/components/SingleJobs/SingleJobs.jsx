@@ -2,9 +2,10 @@ import { layer } from "@fortawesome/fontawesome-svg-core";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faLocation, faDollarSign } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const SingleJobs = ({ singleJob }) => {
-  const {
+  const {id,
     companyLogo,
     companyName,
     jobTitle,
@@ -33,7 +34,7 @@ const SingleJobs = ({ singleJob }) => {
         </div>
       </div>
       <div>
-      <button class="btn btn-active btn-primary">View Details</button>
+      <button className="btn btn-active btn-primary"><Link to={`/details/${id}`}>View Details</Link></button>
       </div>
     </div>
   );
